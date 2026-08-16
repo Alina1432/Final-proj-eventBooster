@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>event-booster</title>
+  </head>
+  <body>
+    
+    <header class="header">
+      <img class="header_logo" src="./src/img/logo (1).png" alt="logo">
+
+      <h1 class="header_title">
+        FIND BEST EVENTS
+        AROUND THE WORLD
+      </h1>
+      <div class="header_div">
+        <div class="header_input--wrapper">
+          <input type="text" class="header_input" placeholder="Start searching">
+          <img src="./src/img/search icon.png" alt="search">
+        </div>
+        <select id="headerInput" class="header_input--select">
+          <option value="" selected class="header_input--select--opt">Choose country</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <section class="cards">
+        <div class="cards_conteiner" id="cards-container">
+          <div class="loader">Loading...</div>
+        </div>
+        
+        <div class="pagination">
+          <button class="pagination_item active">1</button>
+          <button class="pagination_item">2</button>
+          <button class="pagination_item">3</button>
+          <button class="pagination_item">4</button>
+          <button class="pagination_item">5</button>
+          <span class="pagination_dots">...</span>
+          <button class="pagination_item">29</button>
+        </div>
+
+        <h4 class="goIt">© 2021 | All Rights Reserved | Developed with ❤️ by GoIT Students</h4>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
